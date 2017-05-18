@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestXamarin.ListViewSample">
+   
+	<ListView x:Name="myList" 
+        >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                 <StackLayout Orientation="Horizontal">
+                    <Image Source="{Binding avatar}"/>
+                    <StackLayout >
+                        <Label FontAttributes="Bold" Text="{Binding name}"/>
+                        <Label Text="{Binding mobile}" TextColor="Gray"/>
+                    </StackLayout>
+                    <Button Text="Follow" />
+                </StackLayout>
+                <!--<ImageCell Text="{Binding name}" Detail="{Binding mobile}" ImageSource="{Binding avatar}"/>-->
+                <!--<TextCell Text="{Binding name}" Detail="{Binding mobile}"/>-->
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

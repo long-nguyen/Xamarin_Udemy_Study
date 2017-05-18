@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestXamarin.ImageSample1"
+    xmlns:local="clr-namespace:TestXamarin"
+    xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+>
+    
+    <AbsoluteLayout>
+                
+
+        <!--<ActivityIndicator IsRunning="{Binding Source={x:Reference sampleImg}, Path=IsLoading}" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 100, 100" AbsoluteLayout.LayoutFlags="PositionProportional"
+        />-->
+<!--        <Image x:Name="sampleImg" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"></Image>-->
+
+       <!-- <Image x:Name="sampleImg"
+            Source="{local:EmbeddedImage }"
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" 
+            AbsoluteLayout.LayoutFlags="All"></Image>-->
+    </AbsoluteLayout>
+    <StackLayout
+        VerticalOptions="Center" HorizontalOptions="Center"
+        >
+        <!--<Image x:Name="platformSpecificImg" Aspect="AspectFit" Source="bt_twitter.png"></Image>-->
+        <controls:CircleImage
+            WidthRequest="100" 
+            HeightRequest="100" 
+            Aspect="AspectFit"
+            Source="http://sociorocketnewsen.files.wordpress.com/2013/08/foodsample1.jpg">
+        </controls:CircleImage>
+    </StackLayout>
+	
+</ContentPage>

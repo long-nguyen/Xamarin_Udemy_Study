@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestXamarin.StackPage">
+    <!-- 
+    + Mặc định thì StackLayout sẽ chiếm full màn hình luôn, nhưng nếu định nghĩa orientation hướng nào thì nó sẽ giới hạn chiều đó = nội dung content(wrap_content)
+    + Spacing:Khoảng cách mặc định giữa các item
+    + Padding, Orientation: OK, giống android 
+    s
+    -->
+    <StackLayout BackgroundColor="Yellow" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center"
+        Spacing="0">
+        <StackLayout Orientation="Vertical" BackgroundColor="Lime">
+            <Image Source="http://placehold.it/100x100" />
+            <Label Text="Special label"/>
+        </StackLayout>
+        <Label Text="label 1" />
+        <Label Text="Label 2" />
+        <Label Text="Label 3" />
+    </StackLayout>
+</ContentPage>

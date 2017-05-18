@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{5E8C94D2-7601-4FE9-ADE3-BE490EAA8B15}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestXamarin/ListViewSample.xaml">
+    <Files>
+      <File FileName="TestXamarin/ListViewSample.xaml" Line="15" Column="30" />
+      <File FileName="TestXamarin/ListViewSample.xaml.cs" Line="20" Column="75" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TestXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.756C7D3E-7B7B-4BC6-AD90-9D018AFFA2D8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
